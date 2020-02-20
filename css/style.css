@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+}
+#head {
+    width: 1300px;
+    height: 100px;
+    padding: 10px;
+    margin: 50px 100px;
+    display: block;
+}
+#ban {
+    width: 1150px;
+    height: 180px;
+    display: flex;
+    background: white;
+    margin: -40px 120px;
+    padding: 20px 20px;
+    clear: both;
+    }
+    #main {
+        width: 1190px;
+        height: 700px;
+        display: block;
+        padding: 0;
+        margin: 45px 120px;
+        color: #6b6b6b;
+    }
+    #article {
+        width: 19%;
+        
+        height: 500px;
+        float: left;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #aside {
+        width: 935px;
+        height: 790px;
+        background: white;
+        float: left;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo  {
+    font-size: 27px;
+    float: left;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+#navigator {
+    width: 800px;
+    float: left;
+    margin-top: 40px;
+    display: block;
+    
+    
+}
+#menu li {
+    display: inline-block;
+    font-size: 22px;
+    list-style: none;
+}
+#menu a {
+    text-decoration: none;
+    padding: 1px;
+    margin: 50px 10px;
+    color: white;
+}
+a:hover {
+    cursor: pointer;
+    background: rgba(43, 165, 165, 0.651);
+}
+h4 {
+    margin-top: 20px;
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 24px;
+    font-family: 'Arvo', serif;
+}
+p {
+    color: white;
+    margin-top: 10px;
+    text-align: justify;
+}
+#main li {
+    margin-top: 15px;
+    list-style: none;
+    border-bottom: 2px dashed white;
+    padding: 15px 0px;
+}
+#main a {
+    color: white;
+    cursor: pointer;
+}
+.welcome p {
+    color: black;
+    padding: 10px;
+    font-family: 'Arvo', serif;
+    line-height: 1.58em;
+    
+}
+img.pic2 {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2 {
+    padding: 20px;
+    font-family: 'Arvo', serif;
+}
+#aside a {
+    color: black;
+}
+#box p {
+    color: black;
+    line-height: 1.58em;
+    padding: 20px;
+}
+h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+#boxli li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+    border-bottom: 2px dashed black;
+    
+}
+#foot {
+    clear: both;
+    width: 1145px;
+    height: 170px;
+    display: block;
+    background: white;
+    margin: 120px 120px;
+    padding: 20px 20px;
+}
+#odio {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+#proin {
+    float: left;
+    width: 900px;
+}
+#proin p {
+    color: black;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+#odio li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5em;
+    border-bottom: 2px dashed black;
+    margin: 5px;
+    padding: 5px;
+
+}
+#site {
+    text-align: center;
+    margin: -85px 140px;
+    padding: 10px;
+    color: gray;
+    height: 100px;
+    width: 1145px;
+    display: block;
+    clear: both;
+}
+#site a {
+    color: gray;
+}
